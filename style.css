@@ -1,11 +1,12 @@
 body{
+    margin : 0px;
     font-family: 'Crimson Pro', serif;
 }
 h1{
     font-size: 50px;
 }
-#name-highlight{
-    color: orange;
+#name-highlight {
+    color: #ff930c;
 }
 .half-width{
     width:40%;
@@ -16,4 +17,44 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.top-section-paragraph {
+    width: 455px;
+    text-align: justify;
+    font-size: 17px;
+}
+.top-section div h3 {
+    width: 450px;
+    font-size: 21px;
+}
+.top-section div button {
+    background-color: rgb(249 119 95);
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    font-family: revert;
+    border-bottom: -43px;
+    border-radius: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 400ms;
+}
+.top-section div button:hover {
+    background: #221f1f;
+    cursor: pointer;
+}
+.img-area {
+    margin-top: 21px;
+    width: 94%;
+    margin-left: 50px;
+}
+section{
+    height: 500px;
 }
