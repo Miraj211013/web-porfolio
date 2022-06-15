@@ -5,15 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
-#name-highlight {
+.orange-highlight {
     color: #ff930c;
 }
 .half-width{
-    width:40%;
+    width: 40%;
     float: left;
     margin-left:5%;
     padding-left:2%;
-
 }
 .half-width img{
     width: 100%;
@@ -21,17 +20,19 @@ h1{
 .top-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 106px;
 }
 .top-section-paragraph {
     width: 455px;
     text-align: justify;
     font-size: 17px;
 }
-.top-section div h3 {
+.half-width h3 {
     width: 450px;
     font-size: 21px;
+    margin-top: 48px;
 }
-.top-section div button {
+.top-section-paragraph button {
     background-image: linear-gradient(45deg,lightSalmon,rgb(252, 93, 65));
     padding: 12px 22px;
     font-size: 16px;
@@ -45,19 +46,75 @@ h1{
     text-transform: uppercase;
     transition-duration: 0.5s !important;
 }
-.top-section div button a {
+.top-section-paragraph button a {
     text-decoration: none;
     color: white;
 }
-.top-section div button:hover {
+.top-section-paragraph button:hover {
     background: #221f1f;
     cursor: pointer;
 }
 .img-area {
-    margin-top: 21px;
-    width: 94%;
-    margin-left: 50px;
+    margin-top: 29px;
+    width: 95%;
+}
+#top2-section-img{
+    width: 85%;
 }
 section{
     height: 500px;
+}
+.top2-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 167px;
+}
+.experience-area h2 {
+    font-size: 25px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 67%;
+    margin-top: 30px;
+    background-color: white;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+
+
+}
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+
+}
+.experience-txt{
+
+font-size: 40px !important;
+width: 165px;
+margin-left: 36px;
+}
+footer p{
+    text-align: center;
+    
+}
+p {
+    color: #666;
+    font-size: 18px;
+}
+.single-experience p {
+    width: 651px;
+    text-align: justify;
+    margin-top: -3px;
 }
