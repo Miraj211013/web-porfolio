@@ -22,6 +22,8 @@ h1{
     background-repeat: no-repeat;
     padding-bottom: 106px;
 }
+
+section.top-section {}
 .top-section-paragraph {
     width: 455px;
     text-align: justify;
@@ -114,7 +116,7 @@ p {
     font-size: 18px;
 }
 .single-experience p {
-    width: 651px;
+    width: 90%;
     text-align: justify;
     margin-top: -3px;
 }
